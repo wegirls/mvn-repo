@@ -15,7 +15,7 @@
    <password>此处填写上面生成的token</password>
 </server>
 ```
-4.单项目源码配置文件看[dm](https://github.com/wegirls/dm/blob/master/pom.xml "dm")  父子模块源码配置看[handy-starer](https://github.com/wegirls/handy-starter/blob/main/pom.xml "handy-starer")
+4.单项目源码配置文件看[dm](https://github.com/wegirls/dm/blob/main/pom.xml "dm")  父子模块源码配置看[handy-starer](https://github.com/wegirls/handy-starter/blob/main/pom.xml "handy-starer")
 
 5.源码上传github
 
@@ -29,7 +29,7 @@
 <repositories>
 	<repository>
 		<id>mvn-repo</id>
-		<url>https://raw.githubusercontent.com/wegirls/mvn-repo/master</url>
+		<url>https://raw.githubusercontent.com/wegirls/mvn-repo/main</url>
 		<snapshots>
 		<enabled>true</enabled>
 		<updatePolicy>always</updatePolicy>
