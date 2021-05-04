@@ -18,7 +18,7 @@ github maven repository
    <password>此处填写上面生成的token</password>
 </server>
 ```
-4.单项目源码配置文件看[dm](https://github.com/originalblackhole/dm/blob/master/pom.xml "dm")  父子模块源码配置看[handy-starer](https://github.com/originalblackhole/handy-starter/blob/main/pom.xml "handy-starer")
+4.单项目源码配置文件看[dm](https://github.com/wegirls/dm/blob/master/pom.xml "dm")  父子模块源码配置看[handy-starer](https://github.com/wegirls/handy-starter/blob/main/pom.xml "handy-starer")
 
 5.源码上传github
 
@@ -32,7 +32,7 @@ github maven repository
 <repositories>
 	<repository>
 		<id>mvn-repo</id>
-		<url>https://raw.githubusercontent.com/originalblackhole/mvn-repo/master</url>
+		<url>https://raw.githubusercontent.com/wegirls/mvn-repo/master</url>
 		<snapshots>
 		<enabled>true</enabled>
 		<updatePolicy>always</updatePolicy>
@@ -42,9 +42,9 @@ github maven repository
 
 <dependencies>
 	<dependency>
-		<groupId>com.github.originalblackhole</groupId>
+		<groupId>com.wegirls</groupId>
 		<artifactId>dm</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</dependency>
 </dependencies>
 ```
@@ -58,15 +58,15 @@ github maven repository
 <repositories>
 	<repository>
 		<id>mvn-repo</id>
-		<url>https://gitee.com/original-blackhole/mvn-repo/raw/master</url>
+		<url>https://gitee.com/wegirl/mvn-repo/raw/master</url>
 	</repository>
 </repositories>
 
 <dependencies>
 	<dependency>
-		<groupId>com.github.originalblackhole</groupId>
+		<groupId>com.wegirl</groupId>
 		<artifactId>dm</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</dependency>
 </dependencies>
 ```
