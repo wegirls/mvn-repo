@@ -1,6 +1,3 @@
-# mvn-repo
-github maven repository
-
 # github maven仓库
 
 一、上传源码到仓库
