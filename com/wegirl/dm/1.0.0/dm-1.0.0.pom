@@ -57,7 +57,6 @@
                 <configuration>
                     <skip>true</skip>
                     <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
-                    &lt;!&ndash;<altDeploymentRepository>internal.repo::default::file:///D:\\mvn-repo1</altDeploymentRepository>&ndash;&gt;
                 </configuration>
             </plugin>-->
 
@@ -86,14 +85,12 @@
                     <noJekyll>true</noJekyll>
                     <!--本地jar地址-->
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-                    <!--<outputDirectory>${project.build.directory}</outputDirectory>-->
                     <!--分支-->
                     <branch>refs/heads/main</branch>
                     <merge>true</merge>
                     <server>github</server>
                     <includes>
                         <include>**/*</include>
-                        <!--<include>**/.jar</include>-->
                     </includes>
                     <!--对应github上创建的仓库名称 name-->
                     <repositoryName>mvn-repo</repositoryName>
