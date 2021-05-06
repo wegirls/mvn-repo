@@ -39,7 +39,7 @@
 
 <dependencies>
 	<dependency>
-		<groupId>com.wegirls</groupId>
+		<groupId>com.wegirl</groupId>
 		<artifactId>dm</artifactId>
 		<version>1.0.0</version>
 	</dependency>
